@@ -18,6 +18,7 @@ Gilded Rose 는 게임 “World of Warcraft”에 나오는 여관 이름입니�
   
 ---------------------------------------------------------  
 ## 실습 목적 :  테스트 코드 작성을 통한 legacy code 이해
+## to - do  : 아이템들에 대해 테스트 코드 작성하기 
 
 ### GildedRose 의 Legacy 테스트 코드
 - GildedRoseTest : foo()
