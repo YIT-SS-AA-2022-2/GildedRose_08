@@ -4,7 +4,7 @@ public class Item {
 
     public String name;
 
-    public int sellIn;
+    public int sellIn; // 유통기한
 
     public int quality;
 
