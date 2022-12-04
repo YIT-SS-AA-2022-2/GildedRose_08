@@ -6,11 +6,21 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class GildedRoseTest {
 
     @Test
-    public void foo() {
+    public void foo() { // 일반 아이템 테스트
         Item[] items = new Item[] { new Item("foo", 0, 0) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals("fixme", app.items[0].name);
+        assertEquals("foo", app.items[0].name);
+        //assertEquals는 두 객체의 값이 같은지 확인
     }
+
+    @Test
+    public void updateQualityTest(){
+
+
+    }
+
+
+
 
 }

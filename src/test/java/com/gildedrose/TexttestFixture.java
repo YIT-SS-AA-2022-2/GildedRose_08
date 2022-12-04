@@ -1,5 +1,7 @@
 package com.gildedrose;
 
+
+// 임의로 아이템,days 지정해서 GlidedRose가 잘 굴러가는지 확인
 public class TexttestFixture {
     public static void main(String[] args) {
         System.out.println("OMGHAI!");
@@ -18,7 +20,7 @@ public class TexttestFixture {
 
         GildedRose app = new GildedRose(items);
 
-        int days = 2;
+        int days = 5;
         if (args.length > 0) {
             days = Integer.parseInt(args[0]) + 1;
         }
