@@ -8,7 +8,7 @@ class GildedRose {
     }
 
    //레거시 코드란? 더이상 수정이 힘든 코드!
-    public void updateQuality() {
+        public void updateQuality() {
         for (int i = 0; i < items.length; i++) {  // i 번째 아이템이 일반 아이템이면 퀄리티 -1
             if (!items[i].name.equals("Aged Brie")
                     && !items[i].name.equals("Backstage passes to a TAFKAL80ETC concert")) {
@@ -28,7 +28,7 @@ class GildedRose {
                             }
                         }
 
-                        if (items[i].sellIn < 6) {// 유통기한이 10일 이하일때 +3
+                        if (items[i].sellIn < 6) {// 유통기한이 5일 이하일때 +3
                             if (items[i].quality < 50) {
                                 items[i].quality = items[i].quality + 1;
                             }
