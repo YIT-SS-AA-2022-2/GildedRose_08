@@ -3,6 +3,7 @@ package com.gildedrose;
 public class Program {
 
     public static void main(String... args) {
+        System.out.println("OMGHAI!");
 
         Item[] items = new Item[] {
                 new Item("+5 Dexterity Vest", 10, 20),
@@ -18,7 +19,7 @@ public class Program {
 
         GildedRose app = new GildedRose(items);
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 31; i++) {
             System.out.println("-------- day " + i + " --------");
             System.out.println("name, sellIn, quality");
             for (int j = 0; j < items.length; j++) {

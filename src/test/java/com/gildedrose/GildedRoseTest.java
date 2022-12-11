@@ -26,7 +26,7 @@ public class GildedRoseTest {
         //assertEquals 는 두 객체의 값이 같은지 확인 fixme -> foo 로 수정
     }
 
-    @Test
+    @Test // 유닛 테스트
     public void ItemUpdateQualityTest(){
         Item[] items = new Item[] {
 
