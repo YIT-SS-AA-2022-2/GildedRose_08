@@ -1,5 +1,8 @@
 package com.gildedrose;
 
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class Item {
 
     public String name;
@@ -18,4 +21,6 @@ public class Item {
    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
     }
+
+
 }
